@@ -1,1 +1,3 @@
 # amplituhedronBoundaries
+
+amplituhedronBoundaries is a Mathematica package for studying the boundary stratifications of three positive geometries: the amplituhedron, the momentum amplituhedron, and the hypersimplex. The first two geometries are relevant for scattering amplitudes in planar <img src="https://latex.codecogs.com/gif.latex?\mathcal{N}=4"/> SYM, while the last one is a well-studied polytope appearing in many important contexts in mathematics. This package includes an array of useful tools for exploring the structure of these positive geometries, including their boundary stratifications, drawing their boundary posets, and additional tools for manipulating combinatorial structures useful for positive Grassmannians.
