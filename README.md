@@ -16,7 +16,7 @@ The amplituhedronBoundaries package has the following Mathematica package depend
 The amplituhedronBoundaries package is available on GitHub and can be download using
 ```
 SetDirectory[NotebookDirectory[]];
-URLDownload["https://raw.githubusercontent.com/mrmrob003/amplituhedronBoundariesTest/master/"<>#,#]&@"amplituhedronBoundaries.m";
+URLDownload["https://raw.githubusercontent.com/mrmrob003/amplituhedronBoundaries/master/"<>#,#]&@"amplituhedronBoundaries.m";
  ```
 which downloads the package into directory of the notebook used to execute the above command. 
 
