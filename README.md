@@ -40,7 +40,7 @@ $cache=True;
 Storing these outputs to file has the advantage that they will never need to be explicitly calculated again as they can be looked-up  almost immediately by the package. The disadvantage of choosing to store outputs to file is that the first-time evaluation of the above functions is longer.
 
 ## Prepared Data Files
-A collection of data files containing the stored outputs of the functions listed previously evaluated for a number of examples has been prepared and is available on GitHub. These prepared files can be downloaded and added to the local data directory Data/ by executing the following command:
+A collection of data files containing the stored outputs for a number of important functions, evaluated for a number of examples has been prepared and is available on GitHub. These prepared files can be downloaded and added to the local data directory Data/ by executing the following command:
 ```
 fetchData[]
 ```
