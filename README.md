@@ -1,11 +1,17 @@
 # amplituhedronBoundaries
 
-![latest version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![compatibility](https://img.shields.io/badge/Mathematica-11.x%2B-red.svg)
+![latest version](https://img.shields.io/badge/version-1.0.1-blue.svg)
+![compatibility](https://img.shields.io/badge/Mathematica-11.x-Red.svg)
 
 amplituhedronBoundaries is a Mathematica package for studying the boundary stratifications of three positive geometries: the amplituhedron, the momentum amplituhedron, and the hypersimplex. The first two geometries are relevant for scattering amplitudes in planar <img src="https://latex.codecogs.com/gif.latex?\mathcal{N}=4"/> SYM, while the last one is a well-studied polytope appearing in many important contexts in mathematics. This package includes an array of useful tools for exploring the structure of these positive geometries, including their boundary stratifications, drawing their boundary posets, and additional tools for manipulating combinatorial structures useful for positive Grassmannians.
 
+# Documentation
+
+Documentation for this package can be found at [[arxiv:2002.07146]](https://arxiv.org/abs/2002.07146).
+
 # Installation and Setup
+
+The amplituhedronBoundaries package was developed using Mathematica 11. Some of the functions produce unexpected behaviour for Mathematica 12+.
 
 ## Dependencies
 The amplituhedronBoundaries package has the following Mathematica package dependencies:
