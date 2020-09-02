@@ -1268,8 +1268,9 @@ printCacheStatus::usage="printCacheStatus[] displays the value of the variable $
 $cache=True;
 <<amplituhedronBoundaries`";
 
-orthComplement::usage="positiveMatrix[nrows,ncolumns] returns a generic (nrows\[Times]ncolumns) matrix with all ordered maximal minors positive, provided nrows\[LessEqual]ncolumns."; 
+positiveMatrix::usage="positiveMatrix[nrows,ncolumns] returns a generic (nrows\[Times]ncolumns) matrix with all ordered maximal minors positive, provided nrows\[LessEqual]ncolumns."; 
 
+orthComplement::usage="orthComplement[martix] returns an orthogonal complement for the given matrix, provided that its number of rows is not greater than its number of columns."; 
 
 
 (* ::Input::Initialization:: *)
