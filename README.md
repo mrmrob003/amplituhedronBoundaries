@@ -1,6 +1,6 @@
 # amplituhedronBoundaries
 
-![latest version](https://img.shields.io/badge/version-1.0.1-blue.svg)
+![latest version](https://img.shields.io/badge/version-1.0.2-blue.svg)
 ![compatibility](https://img.shields.io/badge/Mathematica-11.x-Red.svg)
 
 amplituhedronBoundaries is a Mathematica package for studying the boundary stratifications of three positive geometries: the amplituhedron, the momentum amplituhedron, and the hypersimplex. The first two geometries are relevant for scattering amplitudes in planar <img src="https://render.githubusercontent.com/render/math?math=\mathcal{N}=4"> SYM, while the last one is a well-studied polytope appearing in many important contexts in mathematics. This package includes an array of useful tools for exploring the structure of these positive geometries, including their boundary stratifications, drawing their boundary posets, and additional tools for manipulating combinatorial structures useful for positive Grassmannians.
@@ -49,4 +49,24 @@ Storing these outputs to file has the advantage that they will never need to be 
 A collection of data files containing the stored outputs for a number of important functions, evaluated for a number of examples has been prepared and is available on GitHub. These prepared files can be downloaded and added to the local data directory Data/ by executing the following command:
 ```
 fetchData[]
+```
+
+## Directory Structure
+Once the pre-requisite packages have been installed/downloaded, and the *amplituhedronBoundaries* package has been installed, the package has the following directory structure:
+
+```bash
+    .
+    ├── positroids.m              # pre-requisite package developed by Jacob Bourjaily [arXiv:1212.6974] 
+    └── amplituhedronBoundaries.m # main package                                  
+```
+
+After loading the *amplituhedronBoundaries* package for the first time, an additional directory called Data/ is created, resulting in the modified directory structure:
+
+directory structure:
+
+```bash
+    .
+    ├── positroids.m              # pre-requisite package developed by Jacob Bourjaily [arXiv:1212.6974] 
+    ├── amplituhedronBoundaries.m # main package
+    └── Data/                     # a directory for storing the outputs of long calcualtions to file
 ```
